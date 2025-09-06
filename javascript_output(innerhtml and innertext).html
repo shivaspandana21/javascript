@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+<p>Using innerHTML
+To access an HTML element, you can use the document.getElementById(id) method.
+
+Use the id attribute to identify the HTML element.
+
+Then use the innerHTML property to change the HTML content of the HTML element:
+Changing the innerHTML property of an HTML element is the most common way to display data in HTML.</p>
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "<h2>Hello World</h2>";
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+<p>To access an HTML element, use the document.getElementById(id) method.
+
+Then use the innerText property to change the inner text of the HTML element:
+Use innerHTML when you want to change an HTML element.
+
+Use innerText when you only want to change the plain text.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerText = "Hello World";
+</script>
+
+</body>
+</html>
+
+
